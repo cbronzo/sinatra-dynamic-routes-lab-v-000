@@ -21,8 +21,8 @@ class App < Sinatra::Base
     @phrases = params[:phrase]
     
     @num.times do
-     puts "#{@phrases}
-  end
+     puts "#{@phrases}""
+    end
 end
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do
