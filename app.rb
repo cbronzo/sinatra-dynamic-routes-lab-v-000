@@ -37,7 +37,7 @@ class App < Sinatra::Base
       when "multiply"
         @total = @num1 * @num2
       when "divide"
-        @total = @num1 / @num2
+        @total = @num1  @num2
     end
     "#{@total}"
   end
