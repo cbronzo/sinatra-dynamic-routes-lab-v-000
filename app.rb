@@ -18,6 +18,7 @@ class App < Sinatra::Base
     @num = params[:number].to_i
     @phrase = params[:phrase]
     "#{@phrase*@num}
+  end
 
 
 end
